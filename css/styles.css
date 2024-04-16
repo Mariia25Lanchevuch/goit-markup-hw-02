@@ -92,13 +92,6 @@ color: #fff;
     letter-spacing: 0.04em;
     color: #fff;
 }
-.button{
-   
-    width: 169px;
-    height: 56px;
-}
-
-
 .order-service-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -116,8 +109,7 @@ color: #fff;
 
 .hero{
     background: #2e2f42;
-    width: 1440px;
-height: 600px;
+
 }
 /* =====================BENEFITS========================= */
 .benefits-list-title{
@@ -224,8 +216,7 @@ color: #F4F4FD;
 
 }
 footer{
-    width: 1440px;
-    height: 312px;
+  
     background: #2e2f42;
 }
 .page-logo-footer{
