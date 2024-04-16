@@ -10,6 +10,8 @@ button{
 }
 body{
     font-family:"Roboto", sans-serif;
+    color: #434455;
+    background-color:#FFFFFF;
 }
 
 /* ==================HEADER================== */
@@ -17,13 +19,13 @@ body{
     font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
+color:#4d5ae5;
 }
 .text-italic{
-    color: #4d5ae5;
+    color:  #2e2f42;
 }
 .menu-link{
     font-family: "Roboto", sans-serif;
@@ -62,8 +64,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
-.contact-list-link:hover{
+.contact-list-link:hover
+.contact-list-link:focus
+{
     color: #404bbf;
+}
+.contact-bloc{
+    font-style: normal;
 }
 
 /* ===================HERO========================== */
@@ -72,7 +79,7 @@ color: #434455;
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -103,7 +110,9 @@ color: #fff;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 background: #4d5ae5;
 }
-.order-service-btn:hover{
+.order-service-btn:hover
+.order-service-btn:focus
+{
     background: #404bbf;
 }
 
@@ -130,14 +139,18 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 /* ==============OUR TEAM=========================== */
+.our-team{
+    background-color: #F4F4FD
+}
 .section-title{
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
+text-transform: capitalize;
 }
 .reviews-list-avatar{
     width: 264px;
@@ -170,16 +183,17 @@ color: #434455;
 background: #fff;
 }
 /* ======================Our Portfolio======================== */
-.portfolio-title{
+.section-title{
     font-family: "Roboto", sans-serif;
 font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
-text-align: center;
+text-align:center;
 color: #2e2f42;
+text-transform: capitalize;
 }
-.portfolio-list-name{
+.portfolio-name{
     font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 20px;
@@ -194,6 +208,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.portfolio-list-foto{
+    width: 360;
+    height: 300;
 }
 /* ====================FOOTER====================== */
 .page-footer-title{
@@ -213,11 +231,11 @@ footer{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;
+    color: #4d5ae5;
 }
 .text-italic-footer{
-    color: #4d5ae5;
+    color: #f4f4fd
 }
